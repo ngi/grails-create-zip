@@ -1,0 +1,19 @@
+<plugin name='create-zip' version='0.2.1' grailsVersion='1.3.5 &gt; *'>
+  <author>Angelo Alfano</author>
+  <authorEmail>angeloalfano@gmail.com</authorEmail>
+  <title>Zip a directory</title>
+  <description>\
+Create a zip of a directory.
+</description>
+  <documentation>http://grails.org/plugin/create-zip</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>createzip.ZipController</resource>
+    <resource>createzip.CreateZipTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
