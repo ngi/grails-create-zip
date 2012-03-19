@@ -10,6 +10,6 @@ class ZipController {
 		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"");
 		response.setContentType("application/zip")
 		ZipFile.leftShift(response.outputStream, directory, stripdir)
-		log.debug response
+		// log.debug response
 	}
 }
